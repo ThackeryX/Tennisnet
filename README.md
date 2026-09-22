@@ -49,6 +49,7 @@ All extracted features and annotations for TennisDB are hosted on Hugging Face: 
 
 You can automatically download and place the entire dataset into the data/tennis directory using this command:
 # Install Hugging Face Hub CLI & client
+```bash
 pip install huggingface_hub
 
 # Download TennisDB directly into the data folder
