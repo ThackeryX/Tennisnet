@@ -40,6 +40,9 @@ cd Tennisnet
 pip install -r requirements.txt
 pip install -v -e .
 
+```
+
+---
 
 ## 📦 Step 2: Automatic Data Preparation
 All extracted features and annotations for TennisDB are hosted on Hugging Face: Tang1166/TennisDB.
@@ -74,7 +77,9 @@ Tennisnet/
 │           └── tennisdb_scores.npy
 ├── opentad/
 └── tools/
+```
 
+---
 ## 🚀 Step 3: Training & Evaluation
 All commands follow standard OpenTAD execution protocols.
 1. Training
@@ -93,7 +98,9 @@ torchrun \
     tools/test.py \
     configs/tennisdb/tennisdb.py \
     --checkpoint exps/tennisdb/tennisdb/gpu4_id0/checkpoint/epoch_13.pth
+```
 
+---
 ## 🖊️ Citation & References
 This codebase is developed on top of the OpenTAD project. If you find this repository helpful for your research, please cite OpenTAD:
 @article{liu2025opentad,
