@@ -106,11 +106,12 @@ torchrun \
 
 ## 🖊️ Citation & References
 This codebase is developed on top of the OpenTAD project. If you find this repository helpful for your research, please cite OpenTAD:
+```bash
 @article{liu2025opentad,
   title={OpenTAD: A Unified Framework and Comprehensive Study of Temporal Action Detection},
   author={Liu, Shuming and Zhao, Chen and Zohra, Fatimah and Soldan, Mattia and Pardo, Alejandro and Xu, Mengmeng and Alssum, Lama and Ramazanova, Merey and Alcázar, Juan León and Cioppa, Anthony and Giancola, Silvio and Hinojosa, Carlos and Ghanem, Bernard},
   journal={arXiv preprint arXiv:2502.20361},
   year={2025}
 }
-
+```
 
