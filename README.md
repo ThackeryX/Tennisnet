@@ -1,4 +1,4 @@
-# Tennisnet: Temporal Action Detection for Tennis Videos
+# TennisNet: An Efficient Network for Fine-Grained Tennis Stroke Location
 
 <p align="left">
 <a href="LICENSE" alt="license">
@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/Based%20on-OpenTAD-orange" /></a>
 </p>
 
-**Tennisnet** is a temporal action detection framework specifically tailored for tennis videos, integrating State Space Models (**MambaBMN**) to capture long-range action context.
+**Tennisnet** is a temporal action detection framework specifically tailored for tennis videos, integrating State Space Models to capture long-range action context.
 
 > 📢 **Acknowledgement**: This project is built upon the [OpenTAD](https://github.com/sming256/OpenTAD) benchmark. We thank the authors for their well-engineered foundation.
 
