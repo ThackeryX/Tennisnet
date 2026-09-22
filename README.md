@@ -103,7 +103,7 @@ torchrun \
     --checkpoint exps/tennisdb/tennisdb/gpu4_id0/checkpoint/epoch_13.pth
 ```
 
----
+
 ## 🖊️ Citation & References
 This codebase is developed on top of the OpenTAD project. If you find this repository helpful for your research, please cite OpenTAD:
 @article{liu2025opentad,
@@ -113,4 +113,4 @@ This codebase is developed on top of the OpenTAD project. If you find this repos
   year={2025}
 }
 
----
+
