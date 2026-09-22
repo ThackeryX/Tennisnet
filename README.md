@@ -84,8 +84,8 @@ Tennisnet/
 ---
 ## 🚀 Step 3: Training & Evaluation
 All commands follow standard OpenTAD execution protocols.
-1. Training
 ```bash
+1. Training
 torchrun \
     --nnodes=1 \
     --nproc_per_node=4 \
@@ -93,7 +93,6 @@ torchrun \
     --rdzv_endpoint=localhost:0 \
     tools/train.py configs/tennisnet/tennisdb.py
 2. Testing & Evaluation
-```bash
 torchrun \
     --nnodes=1 \
     --nproc_per_node=1 \
